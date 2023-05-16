@@ -60,7 +60,7 @@ const GameScreen = () => {
         <Animated.View
           key={answer}
           entering={SlideInRight.delay(1000)
-            .delay(200 * index + 2)
+            .delay(201 * index + 2)
             .springify()
             .damping(32)
             .stiffness(500)}
